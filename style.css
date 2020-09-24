@@ -1,0 +1,80 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Hamburger-menu */
+
+.bg-primary{
+    background-color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #1abc9c;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+
+/* Header */
+
+.navbar-default.navbar.navbar-fixed-top {
+    border: 0;
+    background-color: #2c3e50;
+    border-radius: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand a{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#mainnav .navbar-brand{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: #1abc9c;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important; /* per sovrascrivere l'important di bootstrap */
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important; /* per sovrascrivere l'important di bootstrap */
+    }
+}
