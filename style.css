@@ -20,6 +20,11 @@ body{
     border-color: #1abc9c;
 }
 
+.navbar-default .navbar-toggle:hover{
+    background-color: #148f77;
+    border-color: #148f77;
+}
+
 .navbar-default .navbar-toggle .icon-bar{
     background-color: white;
 }
@@ -53,7 +58,8 @@ body{
     font-weight: 700;
 }
 
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
     color: #1abc9c;
 }
 
@@ -131,10 +137,19 @@ body{
 }
 
 .page-section .thumbnail{
-    margin-top: 25px;
     border: none;
     transition: all 0.2s ease-in-out;
+    max-width: 312px;
+    margin-top: 25px;
 }
+
+/* .page-section .thumbnail{
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+} */
 
 .page-section .thumbnail:hover{
     background-color: rgba(26, 188, 156, 0.9);
@@ -142,14 +157,68 @@ body{
 
 .img-fluid{
     border-radius: 8px;
+    max-width: 312px;
     transition: all 0.2s ease-in-out;
 }
 
 .thumbnail img:hover{
-    background-color: rgba(26, 188, 156, 0.9);
     opacity: 0.1;
 }
 
+/* About */
+
+.about{
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+
+.about .about-heading{
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about .divider-custom-line {
+    background-color: #fff;
+    display: inline-block;
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.about .fas {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0 15px;
+    vertical-align: -10px;
+}
+
+.margin{
+    margin-top: 30px;
+}
+
+.about .about-paragrafo{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.btn-outline-light {
+    border: 2px solid #f8f9fa;
+    padding: 20px 15px;
+}
+
+.about .fa-download{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.btn-outline-light:hover {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
 
 @media (min-width: 768px) {
 
@@ -185,4 +254,5 @@ body{
     .masthead .masthead-heading{
         font-size: 64px;
     }
+
 }
