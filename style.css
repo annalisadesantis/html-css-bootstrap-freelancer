@@ -60,7 +60,8 @@ body{
     color: white;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -86,7 +87,7 @@ body{
 }
 
 .masthead .masthead-heading{
-    font-size: 44px;
+    font-size: 34px;
     line-height: 44px;
     font-weight: bold;
     margin-top: 50px;
@@ -97,7 +98,7 @@ body{
     background-color: #fff;
     display: inline-block;
     height: 4px;
-    width: 100px;
+    width: 70px;
     border-radius: 2px;
 }
 
@@ -135,7 +136,7 @@ body{
     background-color: #2c3e50;
     display: inline-block;
     height: 4px;
-    width: 100px;
+    width: 70px;
     border-radius: 2px;
 }
 
@@ -188,7 +189,7 @@ body{
     background-color: #fff;
     display: inline-block;
     height: 4px;
-    width: 100px;
+    width: 70px;
     border-radius: 2px;
 }
 
@@ -242,7 +243,7 @@ body{
     background-color: #2c3e50;
     display: inline-block;
     height: 4px;
-    width: 100px;
+    width: 70px;
     border-radius: 2px;
 }
 
@@ -368,6 +369,57 @@ body{
         display: none !important; /* per sovrascrivere l'important di bootstrap */
     }
 
+    .navbar-brand a{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #mainnav .navbar-brand{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+    }
+
+    .masthead .masthead-heading{
+        font-size: 44px;
+        line-height: 44px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .masthead .divider-custom-line {
+        background-color: #fff;
+        display: inline-block;
+        height: 4px;
+        width: 100px;
+        border-radius: 2px;
+    }
+
+    .page-section .divider-custom-line {
+        background-color: #2c3e50;
+        display: inline-block;
+        height: 4px;
+        width: 100px;
+        border-radius: 2px;
+    }
+
+    .about .divider-custom-line {
+        background-color: #fff;
+        display: inline-block;
+        height: 4px;
+        width: 100px;
+        border-radius: 2px;
+    }
+
+    .contact .divider-custom-line {
+        background-color: #2c3e50;
+        display: inline-block;
+        height: 4px;
+        width: 100px;
+        border-radius: 2px;
+    }
 }
 
 
