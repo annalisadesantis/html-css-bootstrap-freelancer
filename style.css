@@ -158,17 +158,17 @@ body{
 
 .page-section .thumbnail:hover{
     background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 8px;
 }
 
 .img-fluid{
     border-radius: 8px;
-    max-width: 312px;
-    transition: all 0.1s ease-in-out;
 }
 
 .thumbnail img:hover{
     opacity: 0.1;
 }
+
 
 /* About */
 
